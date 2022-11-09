@@ -3,7 +3,9 @@ sudo apt-get update && sudo apt-get upgrade -y # Upgrade the installer for the h
 #python3-dev -y   # Installing the python installer 
 #sudo apt-get install python3-pip -y #Installing the pip installer for the python code 
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
-
+echo "Install pip for python3 with bootstrap"
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
 sudo pip3 install virtualenv    # Install the virtual environment 
 sudo apt install python3-venv -y
 sudo apt-get install cmake -y 

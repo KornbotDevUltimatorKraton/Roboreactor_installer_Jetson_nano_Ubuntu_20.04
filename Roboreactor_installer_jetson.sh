@@ -161,8 +161,8 @@ sudo pip3 install qrcode
 sudo pip3 install printrun 
 git clone https://github.com/kliment/Printrun.git
 cd ~/Printrun
-sudo python3 -m pip install Cython
-sudo python3 setup.py build_ext --inplace
+#sudo python3 -m pip install Cython
+#sudo python3 setup.py build_ext --inplace
 sudo python3 setup.py install   # install click module at the python3 
 cd ~  # Get inside the printrun and install the file automatically 
 echo 'Arduino CLI'
@@ -200,7 +200,7 @@ echo 'Install and setup partition'
 #cd ~  # Get inside the click and install the file automatically 
 #echo 'Eagleexp github install'
 #git clone https://github.com/ponty/eagexp
-echo 'Install the Qt installer opensource software' 
+#echo 'Install the Qt installer opensource software' 
 #sudo apt install qtcreator -y 
 #sudo apt install build-essentials -y  
 #sudo apt install qt5-default -y  
@@ -228,7 +228,6 @@ git clone https://github.com/uoip/g2opy
 cd ~/g2opy/
 mkdir build && cd build  
 sudo apt-get install build-essential cmake libeigen3-dev -y
-sudo apt-get install -y libqglviewer-dev-qt5 -y 
 #cmake configuretion 
 make -j8
 

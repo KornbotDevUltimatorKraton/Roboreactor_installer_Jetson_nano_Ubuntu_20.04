@@ -49,13 +49,10 @@ sudo pip3 install matplotlib --upgrade
 sudo pip3 install pandas 
 sudo apt-get install python3-zbar -y  # Install the Zbar for the barcode scanner and QR code  scanner 
 sudo pip3 install Pillow 
-#sudo pip3 install PyPDF2
-#sudo pip3 install pdfquery 
-#sudo pip3 install PyMuPDF   
+ 
 sudo pip3 install wordninja
 sudo pip3 install pattern
-#sudo pip3 install openpyxl
-#sudo pip3 install camelot-py[cv]
+
 sudo pip3 install imgextract # Extract the image from the pdf page file 
 sudo pip3 install cython 
 sudo pip3 install pcb-tools-extension
@@ -77,8 +74,6 @@ sudo pip3 uninstall regex -y
 sudo pip3 install regex
 sudo apt-get install python3-scapy -y 
 sudo pip3 install scapy 
-#echo "Install tensorflow for the deep learning and machine learning capability"
-#sudo pip3 install numpy  --upgrade 
 sudo pip3 install googlesearch-python
 sudo apt-get install dnsutils -y 
 sudo apt-get install v4l-utils -y 
@@ -193,33 +188,9 @@ echo 'Wifi scanner installer'
 sudo apt-get install net-tools -y
 sudo apt-get install arp-scan -y
 echo 'Install and setup partition'
-#sudo apt-get install gparted -y 
-#git clone https://github.com/pallets/click
-#cd ~/click
-#sudo python3 setup.py install   # install click module at the python3 
-#cd ~  # Get inside the click and install the file automatically 
-#echo 'Eagleexp github install'
-#git clone https://github.com/ponty/eagexp
-#echo 'Install the Qt installer opensource software' 
-#sudo apt install qtcreator -y 
-#sudo apt install build-essentials -y  
-#sudo apt install qt5-default -y  
-#sudo apt install qt5-doc-html qtbase5-examples -y 
-#echo 'Install Pyqt5 and all tools !'
-#sudo apt-get install python3-pyqt5 -y 
-#sudo apt-get install qtcreator pyqt5-dev-tools -y 
-#sudo apt install python3-pyqt5.qtsvg -y 
-#sudo apt-get install python3-pyqt5 -y   
-#sudo apt-get install pyqt5-dev-tools -y
-
-#sudo apt-get install qttools5-dev-tools -y 
-#sudo pip3 install pyqtgraph 
-#sudo apt-get install --upgrade python3-pyside2.qt3dcore python3-pyside2.qt3dinput python3-pyside2.qt3dlogic python3-pyside2.qt3drender python3-pyside2.qtcharts python3-pyside2.qtconcurrent python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qthelp python3-pyside2.qtlocation python3-pyside2.qtmultimedia python3-pyside2.qtmultimediawidgets python3-pyside2.qtnetwork python3-pyside2.qtopengl python3-pyside2.qtpositioning python3-pyside2.qtprintsupport python3-pyside2.qtqml python3-pyside2.qtquick python3-pyside2.qtquickwidgets python3-pyside2.qtscript python3-pyside2.qtscripttools python3-pyside2.qtsensors python3-pyside2.qtsql python3-pyside2.qtsvg python3-pyside2.qttest python3-pyside2.qttexttospeech python3-pyside2.qtuitools python3-pyside2.qtwebchannel python3-pyside2.qtwebsockets python3-pyside2.qtwidgets python3-pyside2.qtx11extras python3-pyside2.qtxml python3-pyside2.qtxmlpatterns
-
-#sudo pip3 install pyvistaqt 
-#sudo pip3 install qtpy
-#sudo pip3 install image_slicer
-#sudo apt-get install -y python3-pyqt5.qtopengl -y  
+#sudo apt-get install 
+sudo apt-get install gparted -y 
+  
 sudo pip3 install PyOpenGL
 sudo pip3 install vispy
 sudo pip3 install mesmerize
@@ -295,36 +266,14 @@ sudo ufw allow 'Nginx Full'
 sudo ufw allow 'Nginx HTTP'
 sudo ufw allow 'Nginx HTTPS'
 sudo ufw status
-#tree /media/$USER/C8B063EAB063DD86/Websucsmailsend/
-#sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/nginx/conf.d/ -t /etc/nginx/
-#sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/supervisor/conf.d/ -t /etc/supervisor/
 echo 'Install the postfix'
-#sudo apt update
-#sudo apt-get install postfix -y
-#sudo apt-get install mutt -y
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
    # Web Cert installation for secure your web domain 
-echo "Certbot Secure application" 
-#sudo add-apt-repository ppa:certbot/certbot
-#sudo apt install certbot python3-certbot-nginx -y
-#sudo apt-get update 
-#sudo apt-get install certbot -y 
-#sudo apt-get install python3-certbot -y
 sudo apt install python3.9-venv -y 
-
-#sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/idatabots -t /var/www/ # Get the directory of the working file
-#sudo apt update 
-#sudo apt-get install postfix -y 
-#sudo pip3 install Flask-Mail
-#sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/postfix -t /etc/
-#sudo mkdir /var/log/idatabots
-#sudo apt-add-repository -r ppa:certbot/certbot
 sudo apt update 
 sudo apt-get install terminator -y 
 sudo apt-get install tree -y
-
-#sudo pip3 install tensorflow-cpu 
-#sudo apt-get update && sudo apt-get install vsftpd -y 
 sudo ufw allow 20:21\tcp
 sudo ufw allow 30000:31000/tcp  
 sudo ufw status 
